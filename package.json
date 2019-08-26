@@ -7,6 +7,8 @@
     "dummy-text-generator"
   ],
   "private": true,
+  "repository": "https://github.com/sahapranta/bangla_dummy_text",
+  "bugs": "https://github.com/sahapranta/bangla_dummy_text/issues",
   "dependencies": {
     "@material-ui/core": "^4.3.3",
     "react": "^16.8.6",
