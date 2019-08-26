@@ -1,0 +1,69 @@
+.App{
+  width: 100%;
+  /* height: 100vh; */
+  background: linear-gradient(to right, #fafaf2, #ebeee3);
+}
+
+.hero{
+  width:100%;
+  height: 180px;
+  padding: 15px;
+  background: linear-gradient(to right, #7f7fd5, #86a8e7, #91eae4);
+  text-align: center;
+  color: #fff;
+  font-size: 1.3em;
+  line-height: 0.8;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.controls{
+  width: 60%;
+  margin:0 auto;
+  position: relative;
+}
+
+.pbox{
+  overflow-y: scroll;
+  font-family: 'Mukti', sans-serif;
+  height: 300px;
+  padding: 5px 20px;
+  border: 1px solid #7f7fd5;
+}
+
+.heading{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+.heading span p{
+  font-size: 1.4rem;
+  margin-left: 5px; 
+}
+.heading span{
+  display: flex;
+}
+
+.copy{
+  right: 10px;
+}
+
+.slider-box .slide{
+  margin-right: 35px;
+}
+.slider-box{
+  display: flex;
+  justify-content: first baseline;
+}
+
+.footer{
+  margin-top:50px;
+  padding: 5px;
+}
+.github-corner {
+  position: fixed;
+  top: 0;
+  right: 0;
+  color:white;
+}
+/* https://imfunniee.github.io/fimbo/ */

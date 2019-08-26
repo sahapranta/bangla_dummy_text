@@ -1,0 +1,30 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Mukti';
+  /* src: url('fonts/Mukti.eot'); */
+  src: url('fonts/Mukti.woff') format('woff'),
+       url('fonts/Mukti.ttf') format('truetype'),
+       /* url('fonts/Mukti.svg#Mukti') format('svg'), */
+       url('fonts/Mukti.eot?#iefix') format('embedded-opentype');
+  font-weight: normal;
+  font-style: normal;
+}
