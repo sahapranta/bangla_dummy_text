@@ -7,6 +7,7 @@
     "dummy-text-generator"
   ],
   "private": true,
+  "homepage": "https://sahapranta.github.io/bangla_text",
   "repository": "https://github.com/sahapranta/bangla_dummy_text",
   "bugs": "https://github.com/sahapranta/bangla_dummy_text/issues",
   "dependencies": {
