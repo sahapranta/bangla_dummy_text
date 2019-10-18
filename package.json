@@ -1,5 +1,5 @@
 {
-  "name": "bangla_text",
+  "name": "bangla_dummy_text",
   "version": "0.1.0",
   "author": "Pranta Saha",
   "description": "Bangla Text Generator will serve for dummy text using as lorem ipsum. https://github.com/graysonhicks/sanctum-ipsum",
@@ -7,7 +7,7 @@
     "dummy-text-generator"
   ],
   "private": true,
-  "homepage": "https://sahapranta.github.io/bangla_text",
+  "homepage": "https://sahapranta.github.io/bangla_dummy_text",
   "repository": "https://github.com/sahapranta/bangla_dummy_text",
   "bugs": "https://github.com/sahapranta/bangla_dummy_text/issues",
   "dependencies": {
@@ -22,6 +22,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
+    "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
   "eslintConfig": {
